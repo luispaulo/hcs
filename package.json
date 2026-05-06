@@ -10,6 +10,8 @@
   "prisma": {
     "seed": "tsx --require dotenv/config scripts/safe-seed.ts"
   },
+  "engines": { "node": "20.x"
+  },
   "devDependencies": {
     "@next/swc-wasm-nodejs": "13.5.1",
     "@types/bcryptjs": "2.4.6",
